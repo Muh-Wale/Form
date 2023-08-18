@@ -1,0 +1,70 @@
+body {
+    background-image: linear-gradient(to bottom right, red, rgb(8, 8, 168));
+    font-family: cursive;
+}
+#the-gradient {
+    width: 100%;
+    height: 83vh;
+    padding-top: 100px;
+}
+.gradients-container {
+    width: 80%;
+    height: auto;
+    padding-top: 40px;
+    background-image: linear-gradient(to right, rgb(189, 15, 15), rgba(21, 21, 180, 0.801));
+    border: 100px;
+    margin: auto;
+}
+.gradients {
+    height: 440px;
+    width: 700px;
+    background-color: black;
+    margin: 0 auto;
+    
+}
+.gradient {
+    text-align: center;
+    color: white;
+}
+.call-to-action {
+    text-align: center;
+}
+#the-gradient .gradients-container .gradients .gradient h2 {
+    padding-top: 30px;
+}
+#the-gradient .gradients-container .gradients .gradient p {
+    padding: 5px;
+}
+#the-gradient .gradients-container .gradients .gradient input {
+    width: 30%;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 0px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    background-color: black;
+}
+#the-gradient .gradients-container .gradients .gradient ul {
+    list-style-type: none;
+}
+a {
+    color: white;
+    text-align: center;
+}
+#the-gradient .gradients-container .gradients .gradient button {
+    background-color: black;
+    color: white;
+    width: 15%;
+    padding: 15px;
+    text-decoration: none;
+    transition: box-shadow 0.4s;
+    margin: 10px 0px;
+    border: 1px solid green;
+    border-radius: 20px;
+}
+i {
+    padding: 20px;
+}
+nav {
+    margin-right: 5%;
+}
